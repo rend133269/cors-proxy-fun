@@ -3,7 +3,7 @@ const request = require('request');
 const http = require('http');
 const url = require('url');
 const fs = require('fs').promises;
-let PORT = process.env.PORT || 8000;
+let PORT = process.env.PORT || 3000;
 
 process.argv.forEach(function (arg) {
   if(arg.indexOf('--port=') === 0) {
